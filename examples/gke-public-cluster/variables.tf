@@ -3,6 +3,11 @@
 # These variables are expected to be passed in by the operator.
 # ---------------------------------------------------------------------------------------------------------------------
 
+variable "credentials" {
+  type        = string
+  description = "Location of the credentials keyfile."
+}
+
 variable "project" {
   description = "The project ID where all resources will be launched."
   type        = string

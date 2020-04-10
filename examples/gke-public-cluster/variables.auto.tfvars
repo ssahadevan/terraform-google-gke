@@ -1,0 +1,5 @@
+credentials        = "~/gcp/terraform/terraform-gke-keyfile.json"
+project            = "ssdemoproject"
+region             = "us-central1"
+location           = "us-central1-a"
+cluster_name       = "gke-cluster"
